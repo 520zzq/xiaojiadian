@@ -1,0 +1,7 @@
+@import url("site-overrides-v1.css");
+
+@media (max-width: 760px) {
+  .whatsapp-float {
+    display: none;
+  }
+}

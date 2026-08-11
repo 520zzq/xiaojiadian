@@ -1,0 +1,23 @@
+@import url("site-base.css");
+
+.hero,
+.page-hero,
+.page-hero-products {
+  color: var(--ink);
+  background-color: #ffffff;
+}
+
+.page-hero p:not(.eyebrow),
+.page-hero-products p:not(.eyebrow) {
+  color: #46534f;
+}
+
+.page-hero {
+  border-bottom: 1px solid var(--line);
+}
+
+@media (max-width: 760px) {
+  .hero::before {
+    background: rgba(255, 255, 255, 0.93);
+  }
+}

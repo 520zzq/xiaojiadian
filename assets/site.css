@@ -1,0 +1,12 @@
+@import url("site-overrides-v2.css");
+
+@media (max-width: 760px) {
+  .page-hero,
+  .page-hero-products,
+  .page-hero-manufacturing,
+  .page-hero-about,
+  .page-hero-contact {
+    min-height: 310px;
+    background-image: none;
+  }
+}
